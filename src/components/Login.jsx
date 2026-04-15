@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaEye, FaEyeSlash, FaMusic } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Login() {
     const [user, setUser] = useState({ name: "", password: "" });
@@ -83,7 +84,7 @@ export default function Login() {
 
                 <p className="text-center text-[13px] text-[#6b7280] mt-6 mb-0">
                     Chưa có tài khoản?{" "}
-                    <a href="#" className="text-[#7c83f5] no-underline font-semibold transition-colors duration-200 hover:text-[#a5abff]">Đăng ký ngay</a>
+                    <Link to="/register" className="text-[#7c83f5] no-underline font-semibold transition-colors duration-200 hover:text-[#a5abff]">Đăng ký ngay</Link>
                 </p>
             </div>
         </div>

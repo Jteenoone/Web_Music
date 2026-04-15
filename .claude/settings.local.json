@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(npx vite:*)",
+      "Bash(mv Future.jsx HeroBanner.jsx)",
+      "Bash(mv List.jsx FeaturedSongs.jsx)",
+      "Bash(mv CardMusic.jsx SongCard.jsx)",
+      "Bash(mv CardAlbum.jsx AlbumCard.jsx)",
+      "Bash(mv AlbumGrid.jsx FeaturedAlbums.jsx)"
+    ]
+  }
+}
